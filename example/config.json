@@ -1,6 +1,6 @@
 {
   "name": "Digital Remote",
-  "version": "3",
+  "version": "4",
   "slug": "digital_remote",
   "description": "Control all your IR and 433 MHz devices in the web.",
   "startup": "before",
