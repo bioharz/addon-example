@@ -1,6 +1,5 @@
 
 main() {
-	hass.log.trace "${FUNCNAME[0]}"
 
 	while true;
 	do

@@ -11,6 +11,6 @@
   },
   "schema": {
 	"sending_interval_sec":"int(1,120)",
-	"ir_signal": "int(1,32000)"
+	"ir_signal": "int(1,120)"
   }
 }
