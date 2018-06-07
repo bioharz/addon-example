@@ -1,9 +1,9 @@
 {
-    "name": "Example",
+    "name": "IBK-example",
     "version": "dev",
     "slug": "example",
     "description": "Example add-on by Community Hass.io Add-ons",
-    "url": "https://github.com/hassio-addons/addon-example",
+    "url": "https://github.com/bioharz/ikb-addon-example",
     "startup": "application",
     "arch": [
         "aarch64",
