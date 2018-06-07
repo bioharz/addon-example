@@ -1,10 +1,13 @@
 {
   "name": "Digital Remote",
-  "version": "1",
+  "version": "2",
   "slug": "digital_remote",
   "description": "Control all your IR and 433 MHz devices in the web.",
   "startup": "before",
   "boot": "auto",
-  "options": {},
+  "options": {
+	"ir_signal":"164520",
+	"sending_interval_sec": 5
+  },
   "schema": {}
 }
