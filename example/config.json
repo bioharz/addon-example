@@ -1,24 +1,10 @@
 {
-    "name": "IBK-example",
-    "version": "dev",
-    "slug": "example",
-    "description": "Example add-on by Community Hass.io Add-ons",
-    "url": "https://github.com/bioharz/ikb-addon-example",
-    "startup": "application",
-    "arch": [
-        "aarch64",
-        "amd64",
-        "armhf",
-        "i386"
-    ],
-    "boot": "auto",
-    "hassio_api": true,
-    "options": {
-        "log_level": "info",
-        "seconds_between_quotes": 5
-    },
-    "schema": {
-        "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
-        "seconds_between_quotes": "int(1,120)"
-    }
-  }
+  "name": "Digital Remote",
+  "version": "1",
+  "slug": "digital_remote",
+  "description": "Control all your IR and 433 MHz devices in the web.",
+  "startup": "before",
+  "boot": "auto",
+  "options": {},
+  "schema": {}
+}
